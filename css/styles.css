@@ -356,6 +356,7 @@ body {
 .webteam-social-link {
   width: 44px;
   height: 44px;
+  padding: 12px;
 
   border-radius: 50%;
 
@@ -370,7 +371,6 @@ body {
 
 .webteam-social-icon {
   display: block;
-  margin: 12px;
 
   fill: currentColor;
 }
