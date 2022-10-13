@@ -11,16 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -29,8 +27,7 @@
       <div class="container">
         <div class="header-position">
           <a href="./index.html" class="logo link"
-            ><span class="logo-accent">Web</span
-            ><span class="logo-contrast">Studio</span></a
+            ><span class="logo-accent">Web</span><span class="logo-contrast">Studio</span></a
           >
           <nav>
             <ul class="nav-list list">
@@ -45,16 +42,23 @@
               </li>
             </ul>
           </nav>
+
           <ul class="contact-list list">
             <li class="contact-item">
-              <a href="mailto:info@devstudio.com" class="contact-link link"
-                >info@devstudio.com</a
+              <a href="mailto:info@devstudio.com" class="contact-link link">
+                <svg class="contact-icon" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com</a
               >
             </li>
             <li class="contact-item">
-              <a href="tel:+380961111111" class="contact-link link"
-                >+38 096 111 11 11</a
-              >
+              <a href="tel:+380961111111" class="contact-link link">
+                <svg class="contact-icon" width="10" height="16">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
             </li>
           </ul>
         </div>
@@ -74,28 +78,23 @@
             <li class="benefits-item">
               <h3 class="benefits-title title">Увага до деталей</h3>
               <p class="benefits-text text">
-                Ідейні міркування, і навіть початок повсякденної роботи з
-                формування позиції.
+                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
             <li class="benefits-item">
               <h3 class="benefits-title title">Пунктуальність</h3>
               <p class="benefits-text text">
-                Завдання організації, особливо рамки і місце навчання кадрів
-                тягне у себе.
+                Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
             <li class="benefits-item">
               <h3 class="benefits-title title">Планування</h3>
-              <p class="benefits-text text">
-                Так само консультація з широким активом значною мірою зумовлює.
-              </p>
+              <p class="benefits-text text">Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
             <li class="benefits-item">
               <h3 class="benefits-title title">Сучасні технології</h3>
               <p class="benefits-text text">
-                Значимість цих проблем настільки очевидна, що реалізація
-                планових завдань.
+                Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
           </ul>
@@ -110,24 +109,21 @@
                 src="./images/work-illustration-1.jpg"
                 alt="зображення роботи webstudio"
                 width="370"
-                class="about-image"
-              />
+                class="about-image" />
             </li>
             <li class="about-item">
               <img
                 src="./images/work-illustration-2.jpg"
                 alt="зображення роботи webstudio"
                 width="370"
-                class="about-image"
-              />
+                class="about-image" />
             </li>
             <li class="about-item">
               <img
                 src="./images/work-illustration-3.jpg"
                 alt="зображення роботи webstudio"
                 width="370"
-                class="about-image"
-              />
+                class="about-image" />
             </li>
           </ul>
         </div>
@@ -141,11 +137,32 @@
                 src="./images/webstudio-team-1.jpg"
                 alt="Ігор Дем'яненко Product Designer"
                 width="270"
-                class="webteam-photo"
-              />
+                class="webteam-photo" />
               <div class="webteam-caption">
                 <h3 class="webteam-name title">Ігор Дем'яненко</h3>
                 <p lang="en" class="webteam-position text">Product Designer</p>
+                <div class="webteam-social">
+                  <a href="" class="webteam-social-link link">
+                    <svg class="webteam-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="webteam-social-link link">
+                    <svg class="webteam-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="webteam-social-link link">
+                    <svg class="webteam-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="webteam-social-link link">
+                    <svg class="webteam-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </div>
               </div>
             </li>
             <li class="webteam-item">
@@ -153,13 +170,32 @@
                 src="./images/webstudio-team-2.jpg"
                 alt="Ольга Рєпіна Frontend Developer"
                 width="270"
-                class="webteam-photo"
-              />
+                class="webteam-photo" />
               <div class="webteam-caption">
                 <h3 class="webteam-name title">Ольга Рєпіна</h3>
-                <p lang="en" class="webteam-position text">
-                  Frontend Developer
-                </p>
+                <p lang="en" class="webteam-position text">Frontend Developer</p>
+                <div class="webteam-social">
+                  <a href="" class="webteam-social-link link">
+                    <svg class="webteam-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="webteam-social-link link">
+                    <svg class="webteam-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="webteam-social-link link">
+                    <svg class="webteam-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="webteam-social-link link">
+                    <svg class="webteam-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </div>
               </div>
             </li>
             <li class="webteam-item">
@@ -167,11 +203,32 @@
                 src="./images/webstudio-team-3.jpg"
                 alt="Микола Тарасов Marketing"
                 width="270"
-                class="webteam-photo"
-              />
+                class="webteam-photo" />
               <div class="webteam-caption">
                 <h3 class="webteam-name title">Микола Тарасов</h3>
                 <p lang="en" class="webteam-position text">Marketing</p>
+                <div class="webteam-social">
+                  <a href="" class="webteam-social-link link">
+                    <svg class="webteam-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="webteam-social-link link">
+                    <svg class="webteam-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="webteam-social-link link">
+                    <svg class="webteam-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="webteam-social-link link">
+                    <svg class="webteam-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </div>
               </div>
             </li>
             <li class="webteam-item">
@@ -179,11 +236,32 @@
                 src="./images/webstudio-team-4.jpg"
                 alt="Михайло Єрмаков UI Designer"
                 width="270"
-                class="webteam-photo"
-              />
+                class="webteam-photo" />
               <div class="webteam-caption">
                 <h3 class="webteam-name title">Михайло Єрмаков</h3>
                 <p lang="en" class="webteam-position text">UI Designer</p>
+                <div class="webteam-social">
+                  <a href="" class="webteam-social-link link">
+                    <svg class="webteam-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="webteam-social-link link">
+                    <svg class="webteam-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="webteam-social-link link">
+                    <svg class="webteam-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="" class="webteam-social-link link">
+                    <svg class="webteam-social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </div>
               </div>
             </li>
           </ul>
@@ -193,8 +271,7 @@
     <footer class="footer">
       <div class="container">
         <a href="./index.html" class="logo link"
-          ><span class="logo-accent">Web</span
-          ><span class="logo-contrast">Studio</span></a
+          ><span class="logo-accent">Web</span><span class="logo-contrast">Studio</span></a
         >
         <address class="address">
           <ul class="address-list list">
@@ -208,14 +285,10 @@
               >
             </li>
             <li class="address-item">
-              <a href="tel:+380961111111" class="cont-link link"
-                >+38 096 111 11 11</a
-              >
+              <a href="tel:+380961111111" class="cont-link link">+38 096 111 11 11</a>
             </li>
             <li class="address-item">
-              <a href="mailto:info@devstudio.com" class="cont-link link"
-                >info@devstudio.com</a
-              >
+              <a href="mailto:info@devstudio.com" class="cont-link link">info@devstudio.com</a>
             </li>
           </ul>
         </address>

@@ -134,11 +134,18 @@ body {
 }
 
 .contact-item + .contact-item {
-  margin-left: 50px;
+  margin-left: 30px;
+}
+
+.contact-icon {
+  fill: currentColor;
+  align-self: center;
+
+  margin-right: 10px;
 }
 
 .contact-link {
-  display: block;
+  display: flex;
 
   padding-top: 32px;
   padding-bottom: 32px;
@@ -330,11 +337,42 @@ body {
 }
 
 .webteam-position {
-  margin-bottom: 0;
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
+}
+
+.webteam-social {
+  display: flex;
+  justify-content: center;
+}
+
+.webteam-social-link + .webteam-social-link {
+  margin-left: 10px;
+}
+
+.webteam-social-link {
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+
+  color: #afb1b8;
+}
+
+.webteam-social-link:hover,
+.webteam-social-link:focus {
+  background-color: var(--accent-color);
+  color: var(--text-color-hero);
+}
+
+.webteam-social-icon {
+  display: block;
+  margin: 12px;
+
+  fill: currentColor;
 }
 
 /* footer */
