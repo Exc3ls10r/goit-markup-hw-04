@@ -233,6 +233,15 @@ body {
   margin-left: 30px;
 }
 
+.benefits-inner {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+
+  background-color: var(--bgc-second);
+}
+
 .benefits-title {
   margin-bottom: 10px;
 
@@ -344,19 +353,22 @@ body {
   letter-spacing: 0.03em;
 }
 
-.webteam-social {
+.webteam-social-list {
+  margin-bottom: 0;
   display: flex;
   justify-content: center;
 }
 
-.webteam-social-link + .webteam-social-link {
+.webteam-social-list > li + li {
   margin-left: 10px;
 }
 
 .webteam-social-link {
+  display: block;
   width: 44px;
   height: 44px;
-  padding: 12px;
+  padding-top: 12px;
+  padding-left: 12px;
 
   border-radius: 50%;
 
@@ -382,6 +394,10 @@ body {
   padding-bottom: 60px;
 
   background-color: var(--bgc-hero);
+}
+
+.footer-pos {
+  display: flex;
 }
 
 .footer .logo {
@@ -416,6 +432,54 @@ body {
   color: var(--accent-color);
 }
 
+.footer-social-container{
+  margin-left: 70px;
+  padding-top: 12px;
+}
+
+.footer-social-text {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color-hero);
+}
+
+.footer-social-list {
+  margin-bottom: 0;
+  display: flex;
+}
+
+.footer-social-list > li + li {
+  margin-left: 10px;
+}
+
+.footer-social-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding-top: 12px;
+  padding-left: 12px;
+
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, .1);
+  color: var(--text-color-hero);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-social-icon {
+  display: block;
+
+  fill: currentColor;
+}
 
 /* PORTFOLIO */
 /* filter */
